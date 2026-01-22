@@ -51,9 +51,9 @@ GamePlayManager={
     },
 
     preload:function(){
-        game.load.image("background","../SRC/IMAGES/sky.avif");
-        game.load.image("cloud","../SRC/IMAGES/Cloud.png");
-        game.load.image("gout","../SRC/IMAGES/Gout.png");
+        game.load.image("background","./SRC/IMAGES/sky.avif");
+        game.load.image("cloud","./SRC/IMAGES/Cloud.png");
+        game.load.image("gout","./SRC/IMAGES/Gout.png");
     },
 
     gamePanel:function(){
